@@ -1,0 +1,25 @@
+<?php
+require_once('games.php');
+require_once('videogames.php');
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+
+</head>
+<body>
+    <h1>Games</h1>
+    <?php
+    $jeu1= new Games('cluedo','5');
+    var_dump($jeu1);
+    $jeu2 =new videogames('pc','Guild Wars 2','1');
+    var_dump($jeu2);
+    ?>
+    
+</body>
+</html>
